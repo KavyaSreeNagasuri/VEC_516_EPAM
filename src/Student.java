@@ -24,7 +24,7 @@ public class Student implements Comparable {
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
 	 */
-	Date birthDate;
+	private Date birthDate;
 
 	/**
 	 * student average mark
@@ -54,13 +54,13 @@ public class Student implements Comparable {
 		this.fullName = fullName;
 	}
 
-	/*public Date getBirthDate() {
+	public Date getBirthDate() {
 		return birthDate;
 	}
 
 	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
-	}*/
+	}
 
 	public double getAvgMark() {
 		return avgMark;
